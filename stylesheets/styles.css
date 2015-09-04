@@ -477,9 +477,6 @@ img {
 .main-content:first-child {
   margin-top: 0; }
 
-.main-content img {
-  max-width: 100%; }
-
 .main-content h1,
 .main-content h2,
 .main-content h3,
@@ -493,112 +490,6 @@ img {
 
 .main-content p {
   margin-bottom: 1em; }
-
-.main-content code {
-  background-color: #f3f6fa;
-  border-radius: 0.3rem;
-  color: #383e41;
-  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  font-size: 0.9rem;
-  padding: 2px 4px; }
-
-.main-content pre {
-  background-color: #f3f6fa;
-  border-radius: 0.3rem;
-  border: solid 1px #dce6f0;
-  color: #567482;
-  font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  margin-bottom: 1rem;
-  margin-top: 0;
-  padding: 0.8rem;
-  word-wrap: normal; }
-
-.main-content pre > code {
-  background: transparent;
-  border: 0;
-  color: #567482;
-  font-size: 0.9rem;
-  margin: 0;
-  padding: 0;
-  white-space: pre;
-  word-break: normal; }
-
-.main-content .highlight {
-  margin-bottom: 1rem; }
-
-.main-content .highlight pre {
-  margin-bottom: 0;
-  word-break: normal; }
-
-.main-content .highlight pre,
-.main-content pre {
-  border-radius: 0.3rem;
-  font-size: 0.9rem;
-  line-height: 1.45;
-  overflow: auto;
-  padding: 0.8rem; }
-
-.main-content pre code,
-.main-content pre tt {
-  background-color: transparent;
-  border: 0;
-  display: inline;
-  line-height: inherit;
-  margin: 0;
-  max-width: initial;
-  overflow: initial;
-  padding: 0;
-  word-wrap: normal; }
-
-.main-content pre code:before,
-.main-content pre code:after,
-.main-content pre tt:before,
-.main-content pre tt:after {
-  content: normal; }
-
-.main-content ul,
-.main-content ol {
-  margin-top: 0; }
-
-.main-content blockquote {
-  border-left: 0.3rem solid #dce6f0;
-  color: #819198;
-  margin-left: 0;
-  padding: 0 1rem; }
-
-.main-content blockquote > :first-child {
-  margin-top: 0; }
-
-.main-content blockquote > :last-child {
-  margin-bottom: 0; }
-
-.main-content table {
-  display: block;
-  overflow: auto;
-  width: 100%;
-  word-break: keep-all;
-  word-break: normal; }
-
-.main-content table th {
-  font-weight: bold; }
-
-.main-content table th,
-.main-content table td {
-  border: 1px solid #e9ebec;
-  padding: 0.5rem 1rem; }
-
-.main-content dl {
-  padding: 0; }
-
-.main-content dl dt {
-  font-size: 1rem;
-  font-weight: bold;
-  margin-top: 1rem;
-  padding: 0; }
-
-.main-content dl dd {
-  margin-bottom: 1rem;
-  padding: 0; }
 
 .main-content hr {
   background-color: #eff0f1;
