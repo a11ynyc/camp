@@ -1,11 +1,28 @@
 * {
   box-sizing: border-box; }
 
-.sponsors{
+#sponsors{
+  text-align:center;
+  background-color:white;
   list-style-type: none;
       margin: 0;
       padding: 0;
+display: flex;
+height:120px;
+
     }
+
+    #sponsors li{
+      position: relative;
+float: left;
+    }
+
+
+#sponsors img{
+  padding: 0.1em 0.5em;
+margin: 1.5em 0.5em 0.5em;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -15,6 +32,7 @@ body {
   color: white;
 background:black;
 }
+
 .todo{
   display:none;
 }
@@ -232,13 +250,17 @@ a {
     font-size: 1rem; } }
 
 .site-footer {
+
   padding-top: 2rem;
   margin-top: 2rem;
   border-top: solid 1px #eff0f1; }
 
 .site-footer-owner {
+  margin-top: 2rem;
   display: block;
-  font-weight: bold; }
+  font-weight: bold;
+clear:both;
+}
 
 .site-footer-credits {
   color: #819198; }
