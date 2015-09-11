@@ -1,17 +1,22 @@
 * {
   box-sizing: border-box; }
 
+
+
 #sponsors{
   text-align:center;
-  background-color:white;
   list-style-type: none;
-      margin: 0;
+
       padding: 0;
 display: flex;
 height:120px;
 
     }
+#sponsors ul{
+  background-color:white;
 
+
+}
     #sponsors li{
       position: relative;
 float: left;
@@ -37,7 +42,8 @@ background:black;
   display:none;
 }
 a {
-  color: yellow;
+  color: magenta;
+  background-color:black;
   text-decoration:none;
   }
 
@@ -251,10 +257,12 @@ a {
 
 .site-footer {
 
-  padding-top: 2rem;
-  margin-top: 2rem;
   border-top: solid 1px #eff0f1; }
 
+#sponsor-container{
+  background-color:white;
+
+}
 .site-footer-owner {
   margin-top: 2rem;
   display: block;
@@ -276,3 +284,19 @@ clear:both;
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+    .site-footer h2{
+      background-color:black;
+      color:yellow;
+      margin-bottom:1rem;
+    }
+
+    .site-footer a{
+      background-color:white;
+      color:magenta;
+    }
+
+    .site-footer-owner a{
+      background-color:black;
+      color:magenta;
+    }
