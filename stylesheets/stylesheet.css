@@ -2,26 +2,31 @@
   box-sizing: border-box;
 }
 
+
+
 #sponsors{
   text-align:center;
   list-style-type: none;
-  padding: 0;
-  display: flex;
-  height:120px;
-}
 
+      padding: 0;
+display: flex;
+height:120px;
+
+    }
 #sponsors ul{
   background-color:white;
-}
 
-#sponsors li{
-  position: relative;
-  float: left;
+
 }
+    #sponsors li{
+      position: relative;
+float: left;
+    }
+
 
 #sponsors img{
   padding: 0.1em 0.5em;
-  margin: 1.5em 0.5em 0.5em;
+margin: 1.5em 0.5em 0.5em;
 }
 
 body {
@@ -73,14 +78,14 @@ a:hover {
 @media screen and (min-width: 64em) {
   .btn {
     padding: 0.75rem 1rem;
-}
+  }
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .btn {
     font-size: 0.9rem;
     padding: 0.6rem 0.9rem;
-}
+  }
 }
 
 @media screen and (max-width: 42em) {
@@ -89,12 +94,12 @@ a:hover {
     font-size: 0.9rem;
     padding: 0.75rem;
     width: 100%;
-}
+  }
 
-.btn + .btn {
-  margin-left: 0;
-  margin-top: 1rem;
-}
+  .btn + .btn {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
 }
 
 .page-header {
@@ -106,19 +111,19 @@ a:hover {
 @media screen and (min-width: 64em) {
   .page-header {
     padding: 1rem 1rem;
-}
+  }
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
     padding: 1rem 1rem;
-}
+  }
 }
 
 @media screen and (max-width: 42em) {
   .page-header {
     padding: 1rem 1rem;
-}
+  }
 }
 
 .project-name {
@@ -129,19 +134,19 @@ a:hover {
 @media screen and (min-width: 64em) {
   .project-name {
     font-size: 3.25rem;
-}
+  }
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-name {
     font-size: 2.25rem;
-}
+  }
 }
 
 @media screen and (max-width: 42em) {
   .project-name {
     font-size: 1.75rem;
-}
+  }
 }
 
 .project-tagline {
@@ -152,19 +157,19 @@ a:hover {
 @media screen and (min-width: 64em) {
   .project-tagline {
     font-size: 1.25rem;
-}
+  }
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-tagline {
     font-size: 1.15rem;
-}
+  }
 }
 
 @media screen and (max-width: 42em) {
   .project-tagline {
     font-size: 1rem;
-}
+  }
 }
 
 .main-content:first-child {
@@ -329,21 +334,21 @@ a:hover {
     margin: 0 auto;
     max-width: 64rem;
     padding: 2rem 6rem;
-}
+  }
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .main-content {
     font-size: 1.1rem;
     padding: 2rem 4rem;
-}
+  }
 }
 
 @media screen and (max-width: 42em) {
   .main-content {
     font-size: 1rem;
     padding: 2rem 1rem;
-}
+  }
 }
 
 .site-footer {
@@ -382,4 +387,20 @@ a:hover {
   .site-footer {
     font-size: 0.9rem;
   }
+}
+
+.site-footer h2{
+  background-color:black;
+  color:yellow;
+  margin-bottom:1rem;
+}
+
+.site-footer a{
+  background-color:white;
+  color:magenta;
+}
+
+.site-footer-owner a{
+  background-color:black;
+  color:magenta;
 }
